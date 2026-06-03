@@ -1,3 +1,5 @@
+![Swift Student Challenge 2025 — Winner](https://img.shields.io/badge/Swift_Student_Challenge-2025_Winner-orange)
+
 # Kara
 
 > A family health tracker that keeps every medical appointment, condition, and practitioner in one place — for everyone under the same roof.
@@ -29,18 +31,29 @@ The SSC submission is the offline, iPad-optimised playground version. The origin
 
 ## Demo
 
-1 - Onboarding screen introducing the app's main features.
-
-![Onboarding](docs/screenshot-onboarding.png)
-
-2 - Home screen: add a new bobo or appointment, see upcoming appointments.
-
-![Home](docs/screenshot-home.png)
-
-3 - History view: appointments and bobos, browsable and filterable.
-
-![History](docs/screenshot-history.png)
-
-4 - Profiles and practitioners: manage family members and the medical contact book.
-
-![Profiles & Practitioners](docs/screenshot-profiles.png)
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/screenshot-onboarding.png" width="280" alt="Onboarding"><br>
+      <b>1 — Onboarding</b><br>
+      Introducing the app's main features.
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/screenshot-home.png" width="280" alt="Home"><br>
+      <b>2 — Home</b><br>
+      Add a new bobo or appointment, see upcoming appointments.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/screenshot-history.png" width="280" alt="History"><br>
+      <b>3 — History</b><br>
+      Appointments and bobos, browsable and filterable.
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/screenshot-profiles.png" width="280" alt="Profiles &amp; Practitioners"><br>
+      <b>4 — Profiles &amp; Practitioners</b><br>
+      Manage family members and the medical contact book.
+    </td>
+  </tr>
+</table>
