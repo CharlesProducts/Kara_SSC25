@@ -1,0 +1,48 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xcdebugger
+*.pbxuser
+*.mode1v3
+*.mode2v3
+project.xcworkspace/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcactivitylog
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+/.build/
+/Packages/
+Package.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+*.swp
+*~
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.lock
+
+# User-specific files
+*.iml
+.idea/
+
+# Assets
+*.xcassets/*/Contents.json

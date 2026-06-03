@@ -92,7 +92,7 @@ public final class AppState: ObservableObject {
         
         let appointment3 = Appointment(booboo: visionBooboo, date: Date.initDateAt(day: 16, month: 9, year: 2024, hour: 14, minutes: 45), isDone: true, comment: "Checking - advised me to go see my doctor", practitioner: practitioner1, attachmentsData: [])
         
-        let appointment4 = Appointment(booboo: visionBooboo, date: Date.initDateAt(day: 26, month: 9, year: 2024, hour: 19, minutes: 30), isDone: true, comment: "My adviser on relaxation exercises", practitioner: practitioner3, attachmentsData: [])
+        let appointment4 = Appointment(booboo: visionBooboo, date: Date.initDateAt(day: 26, month: 9, year: 2024, hour: 19, minutes: 30), isDone: true, comment: "Advised me on relaxation exercises", practitioner: practitioner3, attachmentsData: [])
         
         let appointment5 = Appointment(booboo: visionBooboo, date: Date.initDateAt(day: 24, month: 10, year: 2024, hour: 18, minutes: 45), isDone: true, comment: "Checking", practitioner: practitioner3, attachmentsData: [])
         
@@ -124,9 +124,9 @@ public final class AppState: ObservableObject {
         
         let practitioner6 = Practitioner(user: annaUser, profileIcon: "stethoscope", fullName: "Dr. Greene", work: "Doctor", establishment: "Medical office", adress: "425 Grove Street", city: "New York", country: "NY", phoneNumber: "0123456789", mailAdress: "mailAdresse@icloud.com", comment: "Second floor, door 20")
         
-        let feetBooboo = Booboo(user: annaUser, wording: "Male in heels", bodyPart: "Right foot", isCured: false, startDate: Date.initDateAt(day: 24, month: 11, year: 2024, hour: 12, minutes: 00), comment: "Since I started running")
+        let feetBooboo = Booboo(user: annaUser, wording: "Heel pain", bodyPart: "Right foot", isCured: false, startDate: Date.initDateAt(day: 24, month: 11, year: 2024, hour: 12, minutes: 00), comment: "Since I started running")
         
-        let coughBooboo = Booboo(user: annaUser, wording: "Rhume", bodyPart: "Lungs", isCured: false, startDate: Date.initDateAt(day: 23, month: 2, year: 2025, hour: 12, minutes: 00), comment: nil)
+        let coughBooboo = Booboo(user: annaUser, wording: "Common cold", bodyPart: "Lungs", isCured: false, startDate: Date.initDateAt(day: 23, month: 2, year: 2025, hour: 12, minutes: 00), comment: nil)
         
         let dermatologistBooboo = Booboo(user: annaUser, wording: "Mole that changes size", bodyPart: "Skin", isCured: false, startDate: Date.initDateAt(day: 18, month: 5, year: 2024, hour: 12, minutes: 00), comment: nil)
         
@@ -193,7 +193,7 @@ public final class AppState: ObservableObject {
         
         let practitioner9 = Practitioner(user: emmaUser, profileIcon: "stethoscope", fullName: "Dr. Bovary", work: "Doctor", establishment: "Medical office", adress: "425 Grove Street", city: "New York", country: "NY", phoneNumber: "0123456789", mailAdress: "mailAdresse@icloud.com", comment: "Second floor, door 20")
         
-        let erhumeoboo = Booboo(user: emmaUser, wording: "Rhume", bodyPart: "Lungs", isCured: false, startDate: Date.initDateAt(day: 20, month: 2, year: 2025, hour: 12, minutes: 00), comment: nil)
+        let erhumeoboo = Booboo(user: emmaUser, wording: "Common cold", bodyPart: "Lungs", isCured: false, startDate: Date.initDateAt(day: 20, month: 2, year: 2025, hour: 12, minutes: 00), comment: nil)
         
         let eAppointment1 = Appointment(booboo: erhumeoboo, date: Calendar.current.date(byAdding: .day, value: 1, to: Date()) ?? Date(), isDone: false, comment: nil, practitioner: practitioner9, attachmentsData: [])
         
