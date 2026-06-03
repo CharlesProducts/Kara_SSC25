@@ -4,7 +4,7 @@
 
 ## Context
 Swift Student Challenge 2025 — solo project, third year of engineering school.
-Not the project I originally planned to submit. Built first as a personal app for my family, then adapted in a matter of weeks to meet SSC requirements. It won the challenge.
+Not the project I originally planned to submit (see [Bitforge](https://github.com/CharlesProducts/BitForge_SSC2025)). Built first as a personal app for my family, then adapted in a matter of weeks to meet SSC requirements. It won the challenge.
 
 ## What it does
 - Organise appointments by **bobo** (a condition, injury, or illness) — every visit related to the same issue stays grouped together
